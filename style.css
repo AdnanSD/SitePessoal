@@ -1,0 +1,22 @@
+.cores MenuPadrao_linear{
+    color: #FFFFFF;
+    color: #1E3A8A;
+    color: #1E3A8A;
+}
+
+
+.cores MenuMine_Linear{
+    color: #FFFFFF;
+    color: #1E3A8A;
+    color: #1E3A8A;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: linear-gradient(to right,white 39% ,#1E3A8A 58% ); /* Gradiente azul para branco */
+  }
+
