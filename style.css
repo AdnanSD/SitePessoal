@@ -16,6 +16,8 @@
     padding: 0;
 }
 
+
+
 .navbar {
     background: linear-gradient(to right,white 39% ,#1E3A8A 58% ); /* Gradiente azul para branco */
   }
@@ -36,8 +38,33 @@
 }
 
 
+footer {
+    margin-top: 30px;
+    margin-bottom: -20px;
+    background-color: rgba(3, 58, 177, 0.897);
+    border: solid 2px black;
+  }
+  
+  footer p {
+    font-size: 16px;
+  }
+  
+  .icones {
+    list-style: none;
+  }
+  
+  .icones li {
+    display: inline-block;
+    margin-right: 30px;
+  }
+  
+  .icones li:hover {
+    background-color: rgba(255, 255, 255, 0.904);
+    border-radius: 60px;
 
-.container img{
-    border: solid 3px rgb(0, 0, 0);
-    
-}
+  }
+  
+  .icones img {
+    width: 20px;
+  }
+  
