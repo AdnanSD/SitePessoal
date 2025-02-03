@@ -16,7 +16,11 @@
     padding: 0;
 }
 
-
+.imgclass{
+  width: 600px;
+  height: 400px;
+ 
+}
 
 .navbar {
     background: linear-gradient(to right,white 39% ,#1E3A8A 58% ); /* Gradiente azul para branco */
@@ -32,6 +36,7 @@
    margin-top: 20px;
    
 }
+
 
 .photo img{
     width: 60%;
