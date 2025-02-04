@@ -73,3 +73,13 @@ footer {
     width: 20px;
   }
   
+  .photo p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 18px;
+   font-weight: 400;
+  color: black;
+  line-height: 35px;
+  }
+
+  
+  
