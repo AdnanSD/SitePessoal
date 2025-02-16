@@ -1,19 +1,48 @@
-.cores MenuPadrao_linear{
-    color: #FFFFFF;
-    color: #1E3A8A;
-    color: #1E3A8A;
-}
 
 
-.cores MenuMine_Linear{
-    color: #FFFFFF;
-    color: #1E3A8A;
-    color: #1E3A8A;
-}
 
 *{
     margin: 0;
     padding: 0;
+}
+
+
+
+:root{
+  --body-bg:rgb(255, 255, 255);
+  --body-color:rgb(0, 0, 0);
+  --link-color:rgb(0, 255, 221);
+  --link-color-hover:rgb(3, 18, 153);
+  --p-color:rgb(0, 0, 0);
+}
+
+
+
+.dark-mode:root{
+  --body-bg:rgb(97, 94, 94);
+  --body-color:rgb(255, 255, 255);
+  --link-color:rgb(255, 0, 0);
+  --link-color-hover:rgb(0, 255, 21);
+  --p-color:rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+body{
+  background-color: var(--body-bg);
+  color: var(--body-color);
+}
+
+
+.dark{
+  margin-top: 10px;
+text-align: right;
+margin-right: 20px;
 }
 
 .imgclass{
@@ -49,6 +78,8 @@ footer {
     background-color: rgba(3, 58, 177, 0.897);
     border: solid 2px black;
   }
+
+
   
   footer p {
     font-size: 16px;
@@ -75,11 +106,9 @@ footer {
   
   .photo p{
   font-family: Georgia, 'Times New Roman', Times, serif;
-   font-size: 18px;
-   font-weight: 400;
-  color: black;
+  font-size: 18px;
+  font-weight: 400;
   line-height: 35px;
   }
 
-  
-  
+ 
