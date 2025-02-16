@@ -21,7 +21,7 @@
 .dark-mode:root{
   --body-bg:rgb(97, 94, 94);
   --body-color:rgb(255, 255, 255);
-  --link-color:rgb(255, 0, 0);
+  --link-color:rgb(255, 255, 255);
   --link-color-hover:rgb(0, 255, 21);
   --p-color:rgb(255, 255, 255);
 }
@@ -38,7 +38,13 @@ body{
   color: var(--body-color);
 }
 
+a{
+  color: var(--link-color);
+}
 
+a:hover{
+  color: var(--link-color-hover);
+}
 .dark{
   margin-top: 10px;
 text-align: right;
